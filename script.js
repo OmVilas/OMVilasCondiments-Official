@@ -38,3 +38,13 @@ window.addEventListener('scroll', function () {
     document.querySelector('header').classList.remove('shrink');
   }
 });
+
+  const backToTop = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 150) {
+      backToTop.style.display = "flex";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });

@@ -307,7 +307,24 @@
         font-size: 1.8rem;
       }
     }
+    /* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: none;          /* hidden initially */
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
 
     .text-warning {
   font-size: 1.2rem;
+}
+html {
+  scroll-behavior: smooth;
 }
