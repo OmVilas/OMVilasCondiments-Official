@@ -328,3 +328,51 @@
 html {
   scroll-behavior: smooth;
 } 
+/* Dealer Section */
+.dealer-section {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1.5s ease-in-out;
+  overflow: hidden;
+}
+
+.dealer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.dealer-content {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+.dealer-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.dealer-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ffcc70;
+}
+
+.dealer-desc {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.dealer-section .btn-outline-light {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
